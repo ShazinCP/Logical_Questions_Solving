@@ -8,6 +8,7 @@
 // Make sure your program works on two lists of different sizes.
 
 void main(List<String> args) {
+  m1();
   m2();
 }
 
@@ -30,7 +31,7 @@ void m1() {
       if (c[i] == c[j]) {
         c.removeAt(j);
       } else {
-        j++;
+        j++;        
       }
     }
   }
@@ -49,5 +50,5 @@ void m2() {
       }
     }
   }
-  print(c);
+  print(Set.from(a).intersection(Set.from(b)).toList());
 }
