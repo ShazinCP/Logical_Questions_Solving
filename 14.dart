@@ -4,7 +4,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  method1();
+  // method1();
   method2();
 }
 
