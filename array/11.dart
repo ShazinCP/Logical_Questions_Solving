@@ -10,8 +10,7 @@ void main(List<String> args) {
   method2();
 }
 
-
-void method1(){
+void method1() {
   print("Method 1");
   List a = [5, 10, 15, 20, 25];
   List ans = [];
@@ -22,11 +21,11 @@ void method1(){
   print(ans);
 }
 
-void method2(){
+void method2() {
   print("Method 2");
-  final random =Random();
+  final random = Random();
   List<int> list = List.generate(10, (index) => random.nextInt(100));
-  List<int> result =[list.first,list.last];
+  List<int> result = [list.first, list.last];
   print(list);
   print(result);
 }

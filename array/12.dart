@@ -3,11 +3,10 @@
 
 // Make sure to ask the user to enter the number of numbers in the sequence to generate.
 
-
 import 'dart:io';
 
 void main() {
-  print("Enter a Limit? ");
+  print("Enter a Limit ");
   int chosenNumber = int.parse(stdin.readLineSync()!);
 
   List<int> result = fibonacciNumbers(chosenNumber);

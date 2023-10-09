@@ -1,7 +1,7 @@
-//Generate a random number between 1 and 100. Ask the user to guess the number, 
+//Generate a random number between 1 and 100. Ask the user to guess the number,
 //then tell them whether they guessed too low, too high, or exactly right.
 
-// Keep track of how many guesses the user has taken, and when the game ends, 
+// Keep track of how many guesses the user has taken, and when the game ends,
 // print this out.
 
 import 'dart:io';
@@ -30,7 +30,7 @@ guessingGame() {
       continue;
     }
 
-    // Main logic
+
     if (int.parse(chosenNumber) == randNumber) {
       print("Bingo! You tried $attempt times\n");
       continue;

@@ -12,7 +12,6 @@ void main(List<String> args) {
   m2();
 }
 
-
 void m1() {
   List<int> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
   List<int> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 89];
@@ -31,7 +30,7 @@ void m1() {
       if (c[i] == c[j]) {
         c.removeAt(j);
       } else {
-        j++;        
+        j++;
       }
     }
   }
@@ -43,9 +42,9 @@ void m2() {
   List<int> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 89];
   List<int> c = [];
 
-  for(int i =0;i<a.length;i++){
-    for(int j=0;j<b.length;j++){
-      if(a[i]==b[j]){
+  for (int i = 0; i < a.length; i++) {
+    for (int j = 0; j < b.length; j++) {
+      if (a[i] == b[j]) {
         c.add(i);
       }
     }

@@ -17,7 +17,7 @@ void method1() {
   print(a.reversed.toList());
 }
 
-void method2(){
+void method2() {
   print("Enter a sentence");
   String sentence2 = stdin.readLineSync()!;
   final b = sentence2.split(" ").reversed.toList().toList().join(" ");
