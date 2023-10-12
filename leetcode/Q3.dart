@@ -21,7 +21,7 @@
 void main() {
   List<int> list1 = [1, 2, 4];
   List<int> list2 = [1, 3, 4];
-    List<int> list3 = list1 + list2;
+    List<int> list3 = [...list1,...list2];
     int temp;
 
   print("Merged list: $list3");
